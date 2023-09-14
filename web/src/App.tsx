@@ -32,6 +32,10 @@ export function App() {
         }
     })
 
+    const openInNewTab = (url: string) => {
+        window.open(url, '_blank', 'noopener,noreferrer');
+      };    
+
     return (
         <div className='min-h-screen flex flex-col'>
             <div className='px-6 py-3 flex items-center justify-between border-b'>
@@ -44,9 +48,12 @@ export function App() {
 
                     <Separator orientation='vertical' className='h-6' />
 
-                    <Button variant='outline' className='font-semibold'>
-                        <Github className='w-4 h-4 mr-2' />
-                        Github
+                    <Button 
+                        onClick={() => openInNewTab('https://github.com/zF4ke/nlw-ai')} 
+                        variant='outline' 
+                        className='font-semibold'>
+                            <Github className='w-4 h-4 mr-2' />
+                            Github
                     </Button>
                 </div>
             </div>
