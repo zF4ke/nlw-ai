@@ -32,8 +32,8 @@
 
 ## 📒 Índice
 - [📍 Visão Geral](#-visão-geral)
-- [⚙️ Funcionalidades](#-funcionalidades)
-- [📂 Estrutura do Projeto](#%EF%B8%8F-funcionalidades)
+- [⚙️ Funcionalidades](#%EF%B8%8F-funcionalidades)
+- [📂 Estrutura do Projeto](#-estrutura-do-projeto)
 - [🧩 Módulos](#-módulos)
 - [🚀 Começando](#-começando)
 - [🤝 Contribuir](#-contribuir)
@@ -58,7 +58,7 @@ Destaque para: OpenAI API (Whisper e GPT-3.5 turbo 16k), FFmpeg WASM.
 | Feature                | Description                           |
 | ---------------------- | ------------------------------------- |
 | **⚙️ Arquitetura**     | base de código segue uma arquitetura servidor-cliente com uma API de backend construída em Fastify e um frontend construído em React. O backend usa Prisma como ORM para interagir com uma base de dados SQLite.   |
-| **📖 Documentação**   | [🧩 Clique aqui. ](#modules)    |
+| **📖 Documentação**   | [🧩 Clique aqui. ](#-módulos)    |
 | **🔗 Dependências**    | O sistema depende de bibliotecas externas como Fastify, React, Prisma, Tailwind CSS, OpenAI e axios. Estas bibliotecas fornecem funcionalidades essenciais para servir a API, construir o frontend, operações ORM, gerir estilos, processamento de PNL e efetuar chamadas à API.    |
 | **🧩 Modularidade**      | A base de código está organizada em vários componentes, rotas e bibliotecas. Cada componente tem uma responsabilidade específica e pode ser trocado ou reutilizado facilmente. No entanto, é possível melhorar a separação de preocupações e reduzir as dependências entre componentes.    |
 | **✔️ Testes**          | O código não tem uma estratégia de teste abrangente como Jest ou Cypress. Possui no entanto algumas rotas HTTP no backend para uma verificação manual do comportamento do servidor.   |
