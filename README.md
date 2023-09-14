@@ -33,8 +33,8 @@
 ## 📒 Índice
 - [📍 Visão Geral](#-visão-geral)
 - [⚙️ Funcionalidades](#-funcionalidades)
-- [📂 Estrutura do Projeto](#estrutura-do-projeto)
-- [🧩 Módulos](#módulos)
+- [📂 Estrutura do Projeto](#%EF%B8%8F-funcionalidades)
+- [🧩 Módulos](#-módulos)
 - [🚀 Começando](#-começando)
 - [🤝 Contribuir](#-contribuir)
 - [📄 Licença](#-licença)
