@@ -26,7 +26,9 @@
 <img src="https://img.shields.io/github/languages/code-size/zF4ke/nlw-ai?style&color=5D6D7E" alt="GitHub code size in bytes" />
 <img src="https://img.shields.io/github/commit-activity/m/zF4ke/nlw-ai?style&color=5D6D7E" alt="GitHub commit activity" />
 <img src="https://img.shields.io/github/license/zF4ke/nlw-ai?style&color=5D6D7E" alt="GitHub license" />
+
 </div>
+
 
 ---
 
@@ -50,6 +52,10 @@ O projeto permite aos utilizadores carregar vídeos, transcreve-los para texto e
 Ele foi criado durante a NLW AI da Rocketseat porém possuí algumas diferenças minimas de visual e comportamento adicionadas por mim.
 
 Destaque para: OpenAI API (Whisper e GPT-3.5 turbo 16k), FFmpeg WASM.
+
+
+<br>
+<img src="https://github.com/zF4ke/nlw-ai/blob/master/assets/home-completion.png" alt="Preview" />
 
 ---
 
